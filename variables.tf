@@ -1,5 +1,5 @@
 variable vm_name {
-    default = "vm-dbanas"
+    default = "vm-dbanas2"
 }
 
 variable src_addr {
