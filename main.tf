@@ -35,8 +35,8 @@ resource "digitalocean_vpc" "vpc1" {
   region = "nyc3"
 }
 
-resource "digitalocean_firewall" "ssh" {
-  name = "only-22"
+resource "digitalocean_firewall" "ssh2" {
+  name = "only-ssh"
 
   droplet_ids = [digitalocean_droplet.foobar.id]
 

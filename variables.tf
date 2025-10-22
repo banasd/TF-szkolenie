@@ -3,11 +3,11 @@ variable vm_name {
 }
 
 variable src_addr {
-    default = "167.99.133.13/32"
+    default = "31.130.104.32/32"
 }
 
 variable vpc_name {
-    default = "myNetwork"
+    default = "myNetwork2"
 }
 
 variable project_name {
