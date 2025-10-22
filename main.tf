@@ -36,7 +36,7 @@ resource "digitalocean_vpc" "vpc1" {
 }
 
 resource "digitalocean_firewall" "ssh2" {
-  name = "only-ssh"
+  name = "only-ssh22"
 
   droplet_ids = [digitalocean_droplet.foobar.id]
 

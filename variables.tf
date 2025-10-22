@@ -7,7 +7,7 @@ variable src_addr {
 }
 
 variable vpc_name {
-    default = "myNetwork2"
+    default = "myNetwork22"
 }
 
 variable project_name {
