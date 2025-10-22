@@ -11,7 +11,7 @@ variable vpc_name {
 }
 
 variable project_name {
-    default = "zadanie1-szkolenie-TF"
+    default = "zadanie1-szkolenie-TF22"
 }
 
 variable "do_token" {
